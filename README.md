@@ -1,13 +1,14 @@
 # RobôAP Client
 
-Fork of [FIRAClient](https://github.com/VSSSLeague/FIRAClient) with a slightly different build system.
+Fork of [FIRAClient](https://github.com/VSSSLeague/FIRAClient) using CMake as a build system.
 
-## Submodule Initialization
+## Submodule Initialization
 
-Before building the project, initialize the Git submodule (proto files submodule by Thunderratz):
-   ```sh
+Before building the project, initialize the Git submodule:
+
+```sh
    git submodule update --init --recursive
-   ```
+```
 
 1. Create a build directory:
    ```sh
