@@ -1,4 +1,4 @@
-# Roboap Client
+# RoboAP Client
 
 Fork of [FIRAClient](https://github.com/VSSSLeague/FIRAClient) with a slightly different build system.
 
