@@ -1,8 +1,13 @@
-# RoboAP Client
+# RobôAP Client
 
 Fork of [FIRAClient](https://github.com/VSSSLeague/FIRAClient) with a slightly different build system.
 
-## Build Instructions
+## Submodule Initialization
+
+Before building the project, initialize the Git submodule (proto files submodule by Thunderratz):
+   ```sh
+   git submodule update --init --recursive
+   ```
 
 1. Create a build directory:
    ```sh
@@ -28,3 +33,4 @@ Fork of [FIRAClient](https://github.com/VSSSLeague/FIRAClient) with a slightly d
    ```sh
    ./roboap-client
    ```
+
